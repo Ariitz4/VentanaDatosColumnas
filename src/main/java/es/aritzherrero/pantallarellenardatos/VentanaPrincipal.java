@@ -137,6 +137,7 @@ public class VentanaPrincipal extends Application {
      * Restaura todas las filas en la tabla a su estado original.
      */
     public void restoreRows() {
+        Person.resetPersonSequence(); // Restablece el contador de IDs antes de restaurar las filas
         table.getItems().clear(); // Limpia la tabla
         table.getItems().addAll(PersonTableUtil.getPersonList()); // Restaura la lista original
     }

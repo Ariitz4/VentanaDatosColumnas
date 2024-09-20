@@ -30,6 +30,10 @@ public class Person {
         this(null, null, null);
     }
 
+    public static void resetPersonSequence() {
+        personSequence.set(0); // Restablece el contador de IDs a 0
+    }
+
     /**
      * Constructor que inicializa una nueva persona con los datos proporcionados.
      *
