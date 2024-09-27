@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"es.aritzherrero.pantallarellenardatos","l":"es.aritzherrero.pantallarellenardatos"}];updateSearchResults();
